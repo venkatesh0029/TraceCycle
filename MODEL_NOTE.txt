@@ -1,0 +1,3 @@
+NOTE: The custom model `best-checkpoint-003epoch.bin` failed to load with `KeyError: 'model'`. 
+The system has reverted to `yolov8n.pt` for stability.
+The shelf overlays are disabled in the video feed.

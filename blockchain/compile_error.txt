@@ -1,0 +1,12 @@
+file:///D:/Projects/TraceCycle%20Building%20Trust%20in%20Waste%20Management%20with%20Blockchain%20&%20APIs/blockchain/node_modules/hardhat/dist/src/internal/config-loading.js:52
+    throw new HardhatError(HardhatError.ERRORS.CORE.GENERAL.NO_CONFIG_FILE_FOUND);
+          ^
+
+HardhatError: HHE3: No Hardhat config file found.
+
+You can initialize a new project by running Hardhat with --init
+    at findClosestHardhatConfig (file:///D:/Projects/TraceCycle%20Building%20Trust%20in%20Waste%20Management%20with%20Blockchain%20&%20APIs/blockchain/node_modules/hardhat/dist/src/internal/config-loading.js:52:11)
+    at async getOrCreateGlobalHardhatRuntimeEnvironment (file:///D:/Projects/TraceCycle%20Building%20Trust%20in%20Waste%20Management%20with%20Blockchain%20&%20APIs/blockchain/node_modules/hardhat/dist/src/internal/hre-initialization.js:48:24)
+    at async file:///D:/Projects/TraceCycle%20Building%20Trust%20in%20Waste%20Management%20with%20Blockchain%20&%20APIs/blockchain/node_modules/hardhat/dist/src/index.js:7:1
+
+Node.js v24.13.0

@@ -1,0 +1,72 @@
+Fitter prepared. Device is cuda:0
+
+2020-08-13T15:26:11.502658
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T15:28:36.163083
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T15:29:46.786702
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T15:43:45.395422
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T15:44:29.534424
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T15:51:18.988900
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T15:57:41.333537
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T16:01:22.147072
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T16:04:25.942541
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T16:10:51.261521
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T16:21:52.253080
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T16:33:10.629486
+LR: 0.0002
+Fitter prepared. Device is cuda:0
+
+2020-08-13T16:34:52.139022
+LR: 0.0002
+[RESULT]: Train. Epoch: 0, summary_loss: 75.46617, time: 721.38329
+[RESULT]: Val. Epoch: 0, summary_loss: 58.59650, time: 66.67773
+
+2020-08-13T16:48:01.454713
+LR: 0.0002
+[RESULT]: Train. Epoch: 1, summary_loss: 3.94666, time: 711.20609
+[RESULT]: Val. Epoch: 1, summary_loss: 2.65376, time: 64.95429
+
+2020-08-13T17:00:59.109639
+LR: 0.0002
+[RESULT]: Train. Epoch: 2, summary_loss: 1.50002, time: 719.53560
+[RESULT]: Val. Epoch: 2, summary_loss: 1.26852, time: 65.33192
+
+2020-08-13T17:14:05.715807
+LR: 0.0002
+[RESULT]: Train. Epoch: 3, summary_loss: 1.02903, time: 717.86019
+[RESULT]: Val. Epoch: 3, summary_loss: 0.86518, time: 64.56037
+
+2020-08-13T17:27:09.655292
+LR: 0.0002
