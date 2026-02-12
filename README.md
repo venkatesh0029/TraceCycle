@@ -146,14 +146,11 @@ Research and policy analysis
 Contributions are welcome!
 Feel free to open issues or submit PRs for improvements, features, or documentation.
 
-###📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
 
-👤 Author
 
-Venkatesh
-GitHub: https://github.com/venkatesh0029
 
 🌟 Why This Project Matters
 
