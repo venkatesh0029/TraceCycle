@@ -1,10 +1,10 @@
-###♻️ TraceCycle
+# ♻️ TraceCycle
 ```
 ->Blockchain-Based Waste Traceability Platform
 
 ->TraceCycle is an end-to-end platform that brings transparency, accountability, and trust to waste management using blockchain and a modern web dashboard. It enables tracking the lifecycle of waste—from generation to processing—ensuring verifiable records, auditability, and data-driven insights for municipalities, recyclers, and regulators.
 ```
-###🚀 Key Features
+# 🚀 Key Features
 ```
 🔗 Blockchain Traceability – Immutable records of waste generation, transfer, and processing
 
@@ -16,7 +16,7 @@
 
 🔄 API-Driven Architecture – Integrates with external systems and IoT sources (future-ready)
 ```
-###🧱 Tech Stack
+# 🧱 Tech Stack
 ```
 Frontend:
 
@@ -48,7 +48,7 @@ Docker (optional)
 
 Environment-based configs
 ```
-###🗂️ Project Structure
+# 🗂️ Project Structure
 ```
 TraceCycle/
 ├── backend/                 # API services, blockchain integration
@@ -65,7 +65,7 @@ TraceCycle/
 ├── README.md
 └── docker-compose.yml       # (Optional) containerized setup
 ```
-###⚙️ Setup & Installation
+# ⚙️ Setup & Installation
 ```
 1️⃣ Clone the repo
 git clone https://github.com/venkatesh0029/TraceCycle.git
@@ -86,7 +86,7 @@ python main.py
 
 Make sure your backend environment variables (RPC URL, contract address, private keys for testnet) are configured.
 
-###🔐 Smart Contracts
+# 🔐 Smart Contracts
 ```
 Contract ABI is available at:
 
@@ -98,7 +98,7 @@ Deploy the contract to a testnet (e.g., Polygon Mumbai / Sepolia)
 Update the contract address in the frontend config
 ```
 
-###📦 Model / Large Files (Important)
+# 📦 Model / Large Files (Important)
 ```
 
 Due to GitHub file size limits, large binary files (models, checkpoints, datasets) are not included in this repository.
@@ -115,7 +115,7 @@ backend/
 This keeps the repo lightweight and easy to clone.
 ```
 
-###🧪 Example Use Cases
+# 🧪 Example Use Cases
 ```
 Municipal waste tracking and compliance
 
@@ -128,7 +128,7 @@ Proof-of-disposal for hazardous waste
 Research and policy analysis
 ```
 
-###🛣️ Future Upgradations
+# 🛣️ Future Upgradations
 ```
  IoT sensor integration for automated waste logging
 
@@ -141,7 +141,7 @@ Research and policy analysis
  Production deployment on Polygon / L2
 ```
 
-###🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome!
 Feel free to open issues or submit PRs for improvements, features, or documentation.
