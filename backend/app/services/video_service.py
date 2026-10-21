@@ -42,6 +42,7 @@ class VideoService:
         self.frame_skip = frame_skip
         self.frame_count = 0
         self.running = False
+        self.synthetic_mode = False
         
         # Initialize components
         self.detector = DetectionService(yolo_model, conf_threshold)
@@ -292,13 +293,17 @@ class VideoService:
     def _draw_visualizations(self, frame, tracked_objects, events, shelf_counts):
         """Draw bounding boxes, IDs, and shelf regions"""
         
-        # Draw shelf regions - DISABLED
-        # for shelf_id, (x1, y1, x2, y2) in self.event_detector.shelf_regions.items():
-        #     cv2.rectangle(frame, (x1, y1), (x2, y2), (255, 0, 0), 2)
-        #     count = shelf_counts.get(shelf_id, 0)
-        #     label = f"{shelf_id}: {count} items"
-        #     cv2.putText(frame, label, (x1, y1 - 10),
-        #                cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
+        # Draw shelf regions
+        for shelf_id, (x1, y1, x2, y2) in self.event_detector.shelf_regions.items():
+            cv2.rectangle(frame, (x1, y1), (x2, y2), (255, 0, 0), 2)
+            count = shelf_counts.get(shelf_id, 0)
+            label = f"{shelf_id}: {count} items"
+
+            # Ensure label is visible
+            text_y = y1 - 10 if y1 > 20 else y1 + 20
+
+            cv2.putText(frame, label, (x1, text_y),
+                       cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
         
         # Draw tracked objects
         for obj in tracked_objects:
